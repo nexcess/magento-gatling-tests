@@ -9,7 +9,7 @@ This is a scenario for stress-testing a Magento store using [gatling](http://gat
 Requirements
 ------------
 
-* A site running Magento - Community or Enterprise Edition.
+* A site running Magento Enterprise Edition.
 * 100k sku catalog sample data.
 
 Usage
