@@ -1,0 +1,12 @@
+bin/
+conf/
+lib/
+target/
+results/
+user-files/data/user_credentials.csv
+user-files/data/user_information.csv
+user-files/simulations/basic/
+user-files/simulations/advanced/
+user-files/simulations/cache/
+results
+user-files/simulations/Anonymous*
