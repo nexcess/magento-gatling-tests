@@ -15,7 +15,7 @@ class MagentoSimulation20 extends Simulation {
       .acceptEncodingHeader("gzip, deflate")
       .userAgentHeader("Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20100101 Firefox/17.0")
 
-  setUp(AnonymousCheckout.scn.users(200).protocolConfig(httpConf),
-        AnonymousBrowser.scn2.users(2000).protocolConfig(httpConf))
+  setUp(AnonymousCheckout.scn.users(20).protocolConfig(httpConf),
+        AnonymousBrowser.scn2.users(200).protocolConfig(httpConf))
 
 }
