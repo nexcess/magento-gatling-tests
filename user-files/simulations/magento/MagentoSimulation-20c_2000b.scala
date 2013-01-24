@@ -8,14 +8,14 @@ import akka.util.duration._
 import bootstrap._
 import assertions._
 
-class MagentoSimulation100 extends Simulation {
+class MagentoSimulation20 extends Simulation {
   val urlBase = "http://mce000-lb.nexcess.net"
   val httpConf = httpConfig
       .baseURL(urlBase)
       .acceptEncodingHeader("gzip, deflate")
       .userAgentHeader("Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20100101 Firefox/17.0")
 
-  setUp(AnonymousCheckout.scn.users(100).protocolConfig(httpConf),
-        AnonymousBrowser.scn2.users(1000).protocolConfig(httpConf))
+  setUp(AnonymousCheckout.scn.users(20).protocolConfig(httpConf),
+        AnonymousBrowser.scn2.users(2000).protocolConfig(httpConf))
 
 }
